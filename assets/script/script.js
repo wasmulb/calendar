@@ -48,6 +48,9 @@ $(".saveBtn").click(function() {
   var event9 = nineEvent.value;
   console.log("it worked");
   localStorage.setItem("event9",event9)
+
+  var domObj = $(this).siblings('.hour')
+  console.log(domObj)
 });
 });
 
